@@ -1,0 +1,113 @@
+/*Основной контент*/
+
+.main_content
+{
+    border: 0px solid blue;
+
+    
+    width: 70%;
+    float: left;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.stroka_block
+{
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block
+{
+    max-width: 400px;
+    width: 50%;
+    /* height: 580px; */
+    
+    float: left;
+
+    background: #fff;
+    border: 1px solid #A6A5A5;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: #464444;
+}
+
+.block:hover
+{
+    transition: all .2s ease;
+    box-shadow: -2px 4px 10px rgba(35, 25, 25, 0.2);
+
+}
+
+
+#block_title
+{
+    margin-top: 20px;
+}
+
+#block_img
+{
+    width: 100%;
+    height: 320px;
+    padding: 50px;
+}
+
+#block_img img{
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.block_content
+{
+    border-top: 2px solid #A6A5A5;
+
+    width: 100%;
+    /* height: 120px; */
+    margin: 0 auto;
+    padding: 15px 25px;
+
+    font-size: 17px;
+    line-height: 19px;
+
+}
+
+.but_podrob
+{
+    width: 170px;
+    height: 45px;
+
+    margin-top: 20px;
+
+    background: #E51C21;
+    border-radius: 14px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+
+    line-height:45px;
+}
+
+.but_podrob:hover
+{
+    
+    box-shadow: 0px 3px 6px rgba(150, 2, 2, 0.25);
+    background: #e92b2e;
+    transition: all .1s linear;
+}

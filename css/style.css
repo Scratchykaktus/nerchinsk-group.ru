@@ -1,0 +1,273 @@
+
+/*Основной контент*/
+
+.main_content
+{
+    border: 0px solid blue;
+
+    /* max-width: 958px; */
+    width: 70%;
+
+    float: left;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+
+    /* display: flex; */
+    justify-content: space-around;
+
+    color: #494646;
+}
+
+#main_block
+{
+    width: 100%;
+    /* height: 320px; */
+
+    background: #FFFFFF;
+
+    border: 0px solid red;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+#main_block img
+{
+    width: 300px;
+    /* height: 320px; */
+
+}
+
+#main_block1
+{
+    float: left;
+
+    width: 350px;
+    min-width: 300px;
+    /* height: 92%; */
+
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+#main_block1 p
+{
+    margin-top: 15px;
+    font-size: 17px;
+
+}
+
+#main_block2
+{
+    float: left;
+
+    width: auto;
+    /* height: 320px; */
+
+    display: flex;
+    align-items: center;
+    
+    margin-right: 25px;
+
+    
+}
+
+.but_podrob
+{
+    width: 240px;
+    height: 45px;
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+    background: #E51C21;
+    border-radius: 14px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+
+    line-height:45px;
+}
+
+.but_podrob:hover
+{
+    
+    box-shadow: 0px 3px 6px rgba(150, 2, 2, 0.25);
+    background: #e92b2e;
+    transition: all .1s linear;
+}
+
+#specifications
+{
+    
+    height: 160px;
+
+    
+
+    display: table;
+
+    margin-top: 30px;
+
+}
+
+#text
+{
+    margin: 0px 0px;
+    
+}
+
+.content_txt_1
+{
+    text-align: justify;
+}
+
+.slider
+{
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+    border: 2px solid rgb(142 141 141);
+    position: relative;
+    justify-content: space-between;
+}
+
+.navigation
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar
+{
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.bar:hover
+{
+    opacity: 1;
+    transition: scale(1.1);
+}
+
+input[name="r"]
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides
+{
+    width: 300%;
+    max-height: 450px;
+    
+    display: flex;
+}
+
+.slide
+{
+    width: 33.3%;
+    transition: all .6s ease;
+}
+
+.slide img
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+#r1:checked ~ .s1
+{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1
+{
+    margin-left: -33.3%;
+}
+
+#r3:checked ~ .s1
+{
+    margin-left: -66.6%;
+}
+
+
+
+.table_iarga {
+    overflow: auto;
+    margin-bottom: 35px;
+
+    background: #FFFFFF;
+}
+
+.table_iarga table {
+    min-width: 450px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.table_iarga td {
+    border: 1px solid #000;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#price_list a:hover
+{
+    border-bottom: 2px solid black;
+}
+
+.contact_content_txt
+{
+    margin-top: 1%;
+    font-size: 17px;
+}
+
+.contact_content_txt span
+{
+    margin-left: 2%;
+}
+
+.contact_content_txt a span:hover
+{
+    border-bottom: 0px solid #ef4325;
+    color: #ef4325;
+}
+

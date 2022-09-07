@@ -1,0 +1,226 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прайс-листы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- /*Очистка кеша*/ -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+</head>
+<body>
+    <div id="page-wrap">
+        <header>
+            <div class="theader">
+                <div class="hmenu">
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html">Главная</a>
+                        <a href="about.html">О компании</a>
+                        <a href="price_list.html">Прайс-листы</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bheader">
+                <div class="bmenu">
+                    <div id="big_logo">
+                        <a href="index.html"><img src="img/BigLogo.png" alt="" width="100%" height="auto" ></a>
+                    </div>
+                    <div class="box">
+                        <p><a href="tel:79144700070" class="tel">+7(914) 470-00-70</a></p>
+                        
+                        <p><a href="tel:79144484001" class="tel">+7(914) 448-40-01</a></p> 
+                    </div>
+                    <div class="box">
+                        <p>г. Нерчинск</p>
+                        <span>ул. Декабристов, д. 8<span>
+                    </div>
+                    <div class="box" >
+                        <p style="text-align: right;">ooo.nmg@mail.ru</p>
+                        <button id="but_call" onclick="show_call_back('form_call_back')">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; clear: both;"></div>
+        </header>
+
+        <div class="contener">
+            <div id="form_call_back" >
+
+                <div class="call_back">
+                    <div class="model_header">
+                        <h3 style="margin-bottom: 10px;">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</h3>
+                        <h4>Заполните форму и наши менеджеры Вам перезвонят</h4>
+                    </div>
+                    <div class="model_body">
+                        <div style="margin: 0 auto; width: 80%;">
+                            <form id="mailForm">
+                            
+                                <input type="phone" id="phone" placeholder="Укажите ваш номер телефона" class="form_control">
+                                <input type="email" id="email" placeholder="Укажите ваш email" class="form_control">
+                                <input type="name" id="name" placeholder="Укажите ваши Ф.И.О" class="form_control">
+                                
+                                <button id="send_mail" class="form_button">Отправить</button>
+                                <button class="form_button" onclick="close_call_back('form_call_back')" style="float: right;">Закрыть</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <main>
+                <div class="left-bar">
+                    <!-- Левое меню -->
+                    <div class="left-menu">
+                        <div >
+                            <p>Каталог товаров:</p>
+                        </div>
+                        <ul class="menu-cat">
+                            <li class="ff">
+
+                                <a href="stal_buh.html">
+                                    <span>Сталь в бухтах</span>
+                                </a>
+
+                            </li>
+                            <li class="ff">
+                                
+                                <a href="hangars.html">
+                                    <span>Строительсво Ангаров</span>
+                                </a>
+                                    
+                            </li>
+                            <li class="ff">
+
+                                <a href="prof_list.html">
+                                    <span>Профилированный лист</span>
+                                </a>
+                                    
+                            </li>
+                            <li class="ff">
+
+                                <a href="glad_list.html">
+                                    <span>Гладкий лист</span>
+                                </a>
+
+                            </li>
+                            <li class="ff">
+                                
+                                <a href="siding.html">
+                                    <span>Сайдинг</span>
+                                </a>
+                                    
+                            </li>
+                            <li class="ff">
+                                
+                                <a href="potolochn_profil.html">
+                                    <span>Потолочный профиль</span>
+                                </a>
+                                    
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <!-- Левое меню -->
+                    <div class="but_allpr">
+                        <a href="price_list.html"><span>Все прайс-листы</span></a>
+                    </div>
+                </div>
+
+                <div class="main_content">
+    
+                    <h1 class="h3">Прайс-листы</h1>
+    
+                    <div class="content_txt">
+                        <br>
+                        <p class="news-item" id="price_list">
+                            <a href="file/KP_STAL_BUH.pdf" target="_blank"><b>Сталь в бухтах</b></a>
+                        </p>
+    
+                    </div>
+                </div>
+                
+            </main>
+            <div style="width: 100%; clear: both;"></div>
+        </div>
+        
+
+        
+    </div>
+
+    <footer>
+        <div class="bot_footer">
+            <div class="footer_menu">
+                <ul class="menu-foot">
+                    <li>
+                        <a href="index.html">Галавная</a>
+                    </li>
+                    <li>
+                        <a href="about.html">О компании</a>
+                    </li>
+                    <li>
+                        <a href="price_list.html">Прайс-листы</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="phone">
+                <div class="box">
+                    <p><a href="tel:79144700070" class="tel">+7(914) 470-00-70</a></p>
+                    <br>
+                    <p>пн-пт 8:00-17:00 перерыв 12:00-13:00</p>
+                </div>
+                <div class="box">
+                    <p>Мы находимся по адресу:</p>
+                    <p>г. Нерчинск, ул. Декабристов, д. 8</p>
+                </div>
+                <div class="box">
+                    <span>Почта:</span>
+                    <span> ooo.nmg@mail.ru </span>
+                </div>
+            </div>
+            <!-- <div class="address_f">
+                <dl class="contactInfo">
+                    <dt>Сталь в бухтах</dt>
+                        <dd class="tel">
+                            <a href="tel:+79883649461">+7 (988) 364-94-61</a>                                        Галицин Родион Борисович                                    </dd>
+                        <dd class="tel">
+                            <a href="tel:+79183778509">+7 (918) 377-85-09</a>                                        Кузнецова Наталья Викторовна                                    </dd>
+                </dl>
+                <dl class="contactInfo">
+                    <dt>Быстровозводимые Ангары и Модули</dt>
+                        <dd class="tel">
+                            <a href="tel:+79885240000">+7 (988) 524-00-00</a>                                        Сапронов Игорь Геннадьевич                                    </dd>
+                </dl>
+                <dl class="contactInfo">
+                    <dt>Сэндвич - панели</dt>
+                        <dd class="tel">
+                            <a href="tel:+79885240000">+7 (988) 524-00-00</a>                                        Сапронов Игорь Геннадьевич                                    </dd>
+                </dl>
+
+            </div> -->
+            <div class="left">
+                <p class="copyright"> © ООО "Нерчинск метал групп", 2019 </p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/form_mail.js"></script>
+</body>
+</html>
